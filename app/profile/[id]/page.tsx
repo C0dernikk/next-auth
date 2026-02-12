@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import React from "react";
 
 export default  function UserProfile({params}: any) {
-  const { id } = React.use(params);
+  const { id } = params
 
   const router = useRouter()
 
